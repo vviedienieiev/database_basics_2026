@@ -1,0 +1,501 @@
+id,name,category,country,mcc_code
+1,Lyft #440 (JP),Transport,JP,4121
+2,ATM - Citi Central (NL),ATM Withdrawal,NL,6011
+3,Pizza Run Central (AU),Fast Food,AU,5814
+4,Metro Card North (JP),Public Transit,JP,4111
+5,NationalGas #911 (TR),Utilities,TR,4900
+6,GymPro Plaza (SE),Health/Fitness,SE,7997
+7,Chicken King Online (PL),Fast Food,PL,5814
+8,Daily Grind Central (UA),Coffee Shops,UA,5814
+9,QuickBite #935 (AU),Fast Food,AU,5814
+10,FitClub Express (FR),Health/Fitness,FR,7997
+11,Spice Route #219 (SE),Restaurants,SE,5812
+12,City University Bookstore Online (JP),Education,JP,8220
+13,Spotify #11 (SG),Streaming,SG,5815
+14,CityTransit Plaza (US),Public Transit,US,4111
+15,Pizza Run South (SG),Fast Food,SG,5814
+16,Orange South (PL),Telecom,PL,4814
+17,AirGlobal Central (ES),Travel - Airlines,ES,4511
+18,Olive Branch South (DE),Restaurants,DE,5812
+19,Hometown Grocery North (MX),Groceries,MX,5411
+20,Modern Wear Online (CA),Clothing,CA,5651
+21,ATM - Citi Express (MX),ATM Withdrawal,MX,6011
+22,Kyivstar Central (AU),Telecom,AU,4814
+23,ATM - Barclays Online (TR),ATM Withdrawal,TR,6011
+24,ATM - Local Bank Plaza (ZA),ATM Withdrawal,ZA,6011
+25,Petrol Plus Online (ES),Fuel,ES,5541
+26,Amazon South (SG),Online Retail,SG,5942
+27,Burger House North (UA),Restaurants,UA,5812
+28,Orange Downtown (NL),Telecom,NL,4814
+29,Spice Route Plaza (US),Restaurants,US,5812
+30,Modern Wear Express (AE),Clothing,AE,5651
+31,MovieMax South (SE),Entertainment,SE,7832
+32,Shopify Store South (JP),Online Retail,JP,5942
+33,Digital Den Downtown (IN),Electronics,IN,5732
+34,Vodafone North (UA),Telecom,UA,4814
+35,Aero Express #708 (ES),Travel - Airlines,ES,4511
+36,Disney+ Central (AE),Streaming,AE,5815
+37,AllShield Online (CA),Insurance,CA,6300
+38,AliExpress Plaza (DE),Online Retail,DE,5942
+39,Espresso Lab #174 (IT),Coffee Shops,IT,5814
+40,The Hungry Fork North (BR),Restaurants,BR,5812
+41,Udemy Central (IN),Education,IN,8220
+42,Taco Loco #944 (UA),Fast Food,UA,5814
+43,StyleCo Central (GB),Clothing,GB,5651
+44,NationalGas North (UA),Utilities,UA,4900
+45,Espresso Lab Plaza (SE),Coffee Shops,SE,5814
+46,Bean & Brew #32 (AE),Coffee Shops,AE,5814
+47,ByteShop South (TR),Electronics,TR,5732
+48,Vodafone Express (IN),Telecom,IN,4814
+49,TotalEnergies Central (FR),Fuel,FR,5541
+50,WaterWorks Central (MX),Utilities,MX,4900
+51,CityTransit Express (AE),Public Transit,AE,4111
+52,T-Mobile Plaza (UA),Telecom,UA,4814
+53,MovieMax Downtown (MX),Entertainment,MX,7832
+54,The Hungry Fork South (NL),Restaurants,NL,5812
+55,Grand Plaza Hotel #126 (ES),Travel - Hotels,ES,7011
+56,StarCinema South (NL),Entertainment,NL,7832
+57,Bean & Brew Plaza (AE),Coffee Shops,AE,5814
+58,City Inn Online (TR),Travel - Hotels,TR,7011
+59,eBay Express (NL),Online Retail,NL,5942
+60,HomeFix #649 (IN),Home Improvement,IN,5200
+61,GuardLife North (SE),Insurance,SE,6300
+62,ATM - Local Bank North (ZA),ATM Withdrawal,ZA,6011
+63,Burger House Express (NL),Restaurants,NL,5812
+64,Lyft Plaza (FR),Transport,FR,4121
+65,ATM - Santander Downtown (BR),ATM Withdrawal,BR,6011
+66,Lyft #466 (PL),Transport,PL,4121
+67,EcoEnergy Downtown (FR),Utilities,FR,4900
+68,CityPharm Downtown (UA),Pharmacy,UA,5912
+69,Coursera Online (IT),Education,IT,8220
+70,Hometown Grocery Central (US),Groceries,US,5411
+71,CircuitCity Online (ES),Electronics,ES,5732
+72,Skillshare #590 (ES),Education,ES,8220
+73,Petrol Plus Plaza (ES),Fuel,ES,5541
+74,Hotel Aurora Downtown (PL),Travel - Hotels,PL,7011
+75,GreenGrocer North (SG),Groceries,SG,5411
+76,MovieMax South (GB),Entertainment,GB,7832
+77,Steam Coffee Central (US),Coffee Shops,US,5814
+78,Etsy Downtown (TR),Online Retail,TR,5942
+79,Netflix North (ZA),Streaming,ZA,5815
+80,CinePlex North (AE),Entertainment,AE,7832
+81,Kyivstar Central (MX),Telecom,MX,4814
+82,Modern Wear Online (PL),Clothing,PL,5651
+83,HealthPlus Pharmacy South (NL),Pharmacy,NL,5912
+84,BP Central (AE),Fuel,AE,5541
+85,ATM - Santander Plaza (AU),ATM Withdrawal,AU,6011
+86,WaterWorks North (AE),Utilities,AE,4900
+87,SkyJet South (US),Travel - Airlines,US,4511
+88,Nature's Basket North (SE),Groceries,SE,5411
+89,TransAir Express (TR),Travel - Airlines,TR,4511
+90,BlueWings Express (US),Travel - Airlines,US,4511
+91,MediMart Online (PL),Pharmacy,PL,5912
+92,CrossFit Central Plaza (TR),Health/Fitness,TR,7997
+93,CityTransit #863 (NL),Public Transit,NL,4111
+94,Esso North (AE),Fuel,AE,5541
+95,CityTransit Express (AU),Public Transit,AU,4111
+96,ByteShop North (AE),Electronics,AE,5732
+97,City Electric Plaza (GB),Utilities,GB,4900
+98,ATM - HSBC #297 (UA),ATM Withdrawal,UA,6011
+99,Daily Grind #727 (FR),Coffee Shops,FR,5814
+100,Denim & Co Downtown (CA),Clothing,CA,5651
+101,City University Bookstore Downtown (PL),Education,PL,8220
+102,T-Mobile #310 (MX),Telecom,MX,4814
+103,Pasta Mia #476 (US),Restaurants,US,5812
+104,CoverPlus North (SE),Insurance,SE,6300
+105,Petrol Plus South (DE),Fuel,DE,5541
+106,Vodafone Express (CA),Telecom,CA,4814
+107,AirGlobal South (PL),Travel - Airlines,PL,4511
+108,SafeNet Insurance Online (JP),Insurance,JP,6300
+109,StarCinema #895 (CA),Entertainment,CA,7832
+110,Skillshare South (CA),Education,CA,8220
+111,Coursera South (DE),Education,DE,8220
+112,CityPharm Central (IN),Pharmacy,IN,5912
+113,ProBuilders Supply Express (NL),Home Improvement,NL,5200
+114,Digital Den Plaza (ZA),Electronics,ZA,5732
+115,Digital Den Downtown (ZA),Electronics,ZA,5732
+116,BodyWorks Downtown (GB),Health/Fitness,GB,7997
+117,Vodafone Express (AE),Telecom,AE,4814
+118,CafeRoma #214 (UA),Coffee Shops,UA,5814
+119,Uber Central (SE),Transport,SE,4121
+120,FreeNow Central (GB),Transport,GB,4121
+121,BlueWings Plaza (NL),Travel - Airlines,NL,4511
+122,Gulf Express (ES),Fuel,ES,5541
+123,GymPro North (US),Health/Fitness,US,7997
+124,Skillshare Downtown (AU),Education,AU,8220
+125,Digital Den Online (JP),Electronics,JP,5732
+126,ToolBox Plaza (MX),Home Improvement,MX,5200
+127,Chevron Online (MX),Fuel,MX,5541
+128,AirGlobal Express (NL),Travel - Airlines,NL,4511
+129,Vodafone North (ES),Telecom,ES,4814
+130,Hotel Linden Express (JP),Travel - Hotels,JP,7011
+131,Shopify Store Online (UA),Online Retail,UA,5942
+132,FuelStop Express (BR),Fuel,BR,5541
+133,Market & Co Online (FR),Groceries,FR,5411
+134,GuardLife Plaza (US),Insurance,US,6300
+135,CircuitCity Downtown (ES),Electronics,ES,5732
+136,Spotify Express (SE),Streaming,SE,5815
+137,Hometown Grocery Central (FR),Groceries,FR,5411
+138,CinePlex #599 (AE),Entertainment,AE,7832
+139,City Electric Online (BR),Utilities,BR,4900
+140,MediMart North (BR),Pharmacy,BR,5912
+141,ProBuilders Supply Central (NL),Home Improvement,NL,5200
+142,Kyivstar Downtown (DE),Telecom,DE,4814
+143,SafeNet Insurance Express (MX),Insurance,MX,6300
+144,Grand Plaza Hotel North (TR),Travel - Hotels,TR,7011
+145,eBay Central (CA),Online Retail,CA,5942
+146,Sub Shack Plaza (JP),Fast Food,JP,5814
+147,BuildMart Plaza (US),Home Improvement,US,5200
+148,Spice Route Downtown (ES),Restaurants,ES,5812
+149,Wellness Drug Downtown (PL),Pharmacy,PL,5912
+150,Sakura Sushi South (IN),Restaurants,IN,5812
+151,BP South (ZA),Fuel,ZA,5541
+152,ATM - Local Bank Online (JP),ATM Withdrawal,JP,6011
+153,City Electric Online (ZA),Utilities,ZA,4900
+154,Coursera Downtown (AE),Education,AE,8220
+155,CafeRoma Plaza (ZA),Coffee Shops,ZA,5814
+156,Trendline North (UA),Clothing,UA,5651
+157,Lyft Online (DE),Transport,DE,4121
+158,GymPro South (ES),Health/Fitness,ES,7997
+159,TransAir Express (ES),Travel - Airlines,ES,4511
+160,Trendline Express (SE),Clothing,SE,5651
+161,HomeFix #900 (BR),Home Improvement,BR,5200
+162,Bean & Brew Plaza (JP),Coffee Shops,JP,5814
+163,Theatre Royal Plaza (NL),Entertainment,NL,7832
+164,GymPro Express (CA),Health/Fitness,CA,7997
+165,CircuitCity Plaza (ZA),Electronics,ZA,5732
+166,MediMart Plaza (DE),Pharmacy,DE,5912
+167,YogaHaus Central (MX),Health/Fitness,MX,7997
+168,Chevron #24 (NL),Fuel,NL,5541
+169,City Electric Express (FR),Utilities,FR,4900
+170,TotalEnergies North (ES),Fuel,ES,5541
+171,Olive Branch #975 (JP),Restaurants,JP,5812
+172,Gadget Hub #12 (CA),Electronics,CA,5732
+173,CinePlex Express (IT),Entertainment,IT,7832
+174,GymPro North (MX),Health/Fitness,MX,7997
+175,Sakura Sushi Central (NL),Restaurants,NL,5812
+176,FreeNow Express (GB),Transport,GB,4121
+177,GuardLife Express (UA),Insurance,UA,6300
+178,Skillshare North (MX),Education,MX,8220
+179,TechWorld Online (CA),Electronics,CA,5732
+180,City University Bookstore Plaza (UA),Education,UA,8220
+181,Morning Cup Express (UA),Coffee Shops,UA,5814
+182,Gulf South (ZA),Fuel,ZA,5541
+183,BusLink Plaza (IT),Public Transit,IT,4111
+184,Shopify Store #588 (NL),Online Retail,NL,5942
+185,BlueWings Plaza (JP),Travel - Airlines,JP,4511
+186,CoverPlus Central (GB),Insurance,GB,6300
+187,Couture House Express (US),Clothing,US,5651
+188,ATM - Citi Plaza (ZA),ATM Withdrawal,ZA,6011
+189,YogaHaus Express (US),Health/Fitness,US,7997
+190,ToolBox North (NL),Home Improvement,NL,5200
+191,Daily Grind Downtown (AU),Coffee Shops,AU,5814
+192,Skillshare Downtown (SG),Education,SG,8220
+193,Daily Foods Plaza (US),Groceries,US,5411
+194,ATM - Santander Express (BR),ATM Withdrawal,BR,6011
+195,BookDepot Downtown (AU),Online Retail,AU,5942
+196,FitClub Central (SG),Health/Fitness,SG,7997
+197,Wellness Drug Plaza (ES),Pharmacy,ES,5912
+198,Morning Cup North (GB),Coffee Shops,GB,5814
+199,Skillshare Plaza (UA),Education,UA,8220
+200,Aero Express #309 (AE),Travel - Airlines,AE,4511
+201,Orange #519 (IN),Telecom,IN,4814
+202,CrossFit Central Plaza (JP),Health/Fitness,JP,7997
+203,RailPass Central (US),Public Transit,US,4111
+204,Skillshare North (ZA),Education,ZA,8220
+205,Trendline Plaza (MX),Clothing,MX,5651
+206,Burger Express North (SG),Fast Food,SG,5814
+207,Petrol Plus Online (FR),Fuel,FR,5541
+208,Esso Express (AU),Fuel,AU,5541
+209,ATM - Santander #807 (FR),ATM Withdrawal,FR,6011
+210,Esso Express (SE),Fuel,SE,5541
+211,Electroville Downtown (AE),Electronics,AE,5732
+212,Aero Express Online (AU),Travel - Airlines,AU,4511
+213,Hotel Linden #882 (AU),Travel - Hotels,AU,7011
+214,Couture House Plaza (JP),Clothing,JP,5651
+215,Digital Den Central (TR),Electronics,TR,5732
+216,BusLink South (JP),Public Transit,JP,4111
+217,SkyJet Downtown (MX),Travel - Airlines,MX,4511
+218,Hotel Aurora Express (UA),Travel - Hotels,UA,7011
+219,Udemy South (PL),Education,PL,8220
+220,Urban Threads Express (ES),Clothing,ES,5651
+221,TransAir Express (UA),Travel - Airlines,UA,4511
+222,NationalGas North (PL),Utilities,PL,4900
+223,Couture House Plaza (GB),Clothing,GB,5651
+224,Spotify Express (ES),Streaming,ES,5815
+225,Kyivstar Online (SG),Telecom,SG,4814
+226,Modern Wear Online (TR),Clothing,TR,5651
+227,HealthPlus Pharmacy Express (ES),Pharmacy,ES,5912
+228,Morning Cup Express (ZA),Coffee Shops,ZA,5814
+229,Sub Shack Plaza (GB),Fast Food,GB,5814
+230,Aero Express Central (IT),Travel - Airlines,IT,4511
+231,Hotel Linden South (ES),Travel - Hotels,ES,7011
+232,Petrol Plus Online (IN),Fuel,IN,5541
+233,GymPro Central (GB),Health/Fitness,GB,7997
+234,Sub Shack Online (SG),Fast Food,SG,5814
+235,Skillshare #251 (NL),Education,NL,8220
+236,Digital Den Plaza (SG),Electronics,SG,5732
+237,Denim & Co Downtown (UA),Clothing,UA,5651
+238,GuardLife South (ES),Insurance,ES,6300
+239,Skillshare #615 (UA),Education,UA,8220
+240,Morning Cup North (TR),Coffee Shops,TR,5814
+241,CarePoint Central (AE),Pharmacy,AE,5912
+242,Coursera North (CA),Education,CA,8220
+243,WaterWorks Central (JP),Utilities,JP,4900
+244,eBay #865 (AE),Online Retail,AE,5942
+245,SafeNet Insurance South (GB),Insurance,GB,6300
+246,Skillshare Central (IT),Education,IT,8220
+247,NationalGas South (AU),Utilities,AU,4900
+248,QuickBite Plaza (NL),Fast Food,NL,5814
+249,Daily Grind Online (MX),Coffee Shops,MX,5814
+250,HomeFix Downtown (ZA),Home Improvement,ZA,5200
+251,Morning Cup South (DE),Coffee Shops,DE,5814
+252,AllShield Plaza (DE),Insurance,DE,6300
+253,Chicken King Express (DE),Fast Food,DE,5814
+254,ProBuilders Supply Central (TR),Home Improvement,TR,5200
+255,Coursera South (NL),Education,NL,8220
+256,TransAir #482 (DE),Travel - Airlines,DE,4511
+257,Skillshare Downtown (US),Education,US,8220
+258,ATM - Barclays Central (AU),ATM Withdrawal,AU,6011
+259,ATM - Chase South (AE),ATM Withdrawal,AE,6011
+260,Lyft North (IT),Transport,IT,4121
+261,BP Downtown (UA),Fuel,UA,5541
+262,EcoEnergy North (CA),Utilities,CA,4900
+263,TransAir Central (SG),Travel - Airlines,SG,4511
+264,AliExpress Downtown (NL),Online Retail,NL,5942
+265,SkyJet #288 (ES),Travel - Airlines,ES,4511
+266,Skillshare North (CA),Education,CA,8220
+267,T-Mobile Plaza (TR),Telecom,TR,4814
+268,Petrol Plus Plaza (UA),Fuel,UA,5541
+269,Taco Loco Online (MX),Fast Food,MX,5814
+270,YogaHaus South (PL),Health/Fitness,PL,7997
+271,City University Bookstore Online (UA),Education,UA,8220
+272,Burger Express North (NL),Fast Food,NL,5814
+273,MediMart South (ZA),Pharmacy,ZA,5912
+274,BlueWings Plaza (US),Travel - Airlines,US,4511
+275,Chicken King Express (GB),Fast Food,GB,5814
+276,Daily Foods South (DE),Groceries,DE,5411
+277,Metro Card Downtown (AU),Public Transit,AU,4111
+278,StyleCo Plaza (PL),Clothing,PL,5651
+279,BusLink #66 (GB),Public Transit,GB,4111
+280,Theatre Royal North (NL),Entertainment,NL,7832
+281,FitClub Express (ES),Health/Fitness,ES,7997
+282,CoverPlus South (NL),Insurance,NL,6300
+283,Burger House Express (CA),Restaurants,CA,5812
+284,AirGlobal South (UA),Travel - Airlines,UA,4511
+285,CircuitCity #855 (TR),Electronics,TR,5732
+286,Telia Downtown (BR),Telecom,BR,4814
+287,Skillshare #384 (AE),Education,AE,8220
+288,Chevron #962 (MX),Fuel,MX,5541
+289,ToolBox Plaza (US),Home Improvement,US,5200
+290,Burger House Central (FR),Restaurants,FR,5812
+291,Digital Den Downtown (SG),Electronics,SG,5732
+292,AliExpress Downtown (GB),Online Retail,GB,5942
+293,Orange South (US),Telecom,US,4814
+294,EcoEnergy South (US),Utilities,US,4900
+295,Daily Grind #381 (FR),Coffee Shops,FR,5814
+296,CityPharm Plaza (PL),Pharmacy,PL,5912
+297,EcoEnergy Central (SE),Utilities,SE,4900
+298,PowerCorp Downtown (SG),Utilities,SG,4900
+299,T-Mobile North (NL),Telecom,NL,4814
+300,Urban Pantry Plaza (MX),Groceries,MX,5411
+301,The Hungry Fork #769 (JP),Restaurants,JP,5812
+302,WaterWorks North (NL),Utilities,NL,4900
+303,Shell Central (ES),Fuel,ES,5541
+304,AirGlobal Express (TR),Travel - Airlines,TR,4511
+305,MediMart #996 (IN),Pharmacy,IN,5912
+306,Apple Music Downtown (NL),Streaming,NL,5815
+307,Petrol Plus North (NL),Fuel,NL,5541
+308,Skillshare #571 (ZA),Education,ZA,8220
+309,TransAir #343 (FR),Travel - Airlines,FR,4511
+310,FuelStop Central (SG),Fuel,SG,5541
+311,ATM - Chase Central (AE),ATM Withdrawal,AE,6011
+312,Morning Cup Online (GB),Coffee Shops,GB,5814
+313,BuildMart Central (FR),Home Improvement,FR,5200
+314,Sakura Sushi North (PL),Restaurants,PL,5812
+315,SkyJet Central (GB),Travel - Airlines,GB,4511
+316,BuildMart Downtown (SG),Home Improvement,SG,5200
+317,Uber Central (ES),Transport,ES,4121
+318,Urban Threads North (ZA),Clothing,ZA,5651
+319,Coursera Express (NL),Education,NL,8220
+320,Udemy Central (IT),Education,IT,8220
+321,Digital Den Express (ES),Electronics,ES,5732
+322,Trendline Express (TR),Clothing,TR,5651
+323,City University Bookstore Online (IT),Education,IT,8220
+324,BodyWorks Express (TR),Health/Fitness,TR,7997
+325,La Tavola North (NL),Restaurants,NL,5812
+326,BookDepot Plaza (IN),Online Retail,IN,5942
+327,BP Plaza (PL),Fuel,PL,5541
+328,Netflix North (BR),Streaming,BR,5815
+329,BuildMart North (MX),Home Improvement,MX,5200
+330,BodyWorks Downtown (FR),Health/Fitness,FR,7997
+331,Coursera Express (AE),Education,AE,8220
+332,NationalGas Express (SE),Utilities,SE,4900
+333,AllShield #675 (TR),Insurance,TR,6300
+334,Spotify South (AU),Streaming,AU,5815
+335,SafeNet Insurance Downtown (ZA),Insurance,ZA,6300
+336,Kyivstar North (TR),Telecom,TR,4814
+337,SuperFresh Online (UA),Groceries,UA,5411
+338,CityCab Downtown (DE),Transport,DE,4121
+339,Gadget Hub Central (TR),Electronics,TR,5732
+340,SafeNet Insurance Express (BR),Insurance,BR,6300
+341,Marina Resort #310 (TR),Travel - Hotels,TR,7011
+342,Daily Grind #72 (AU),Coffee Shops,AU,5814
+343,StyleCo Online (SE),Clothing,SE,5651
+344,ByteShop #706 (US),Electronics,US,5732
+345,BuildMart Online (TR),Home Improvement,TR,5200
+346,ProBuilders Supply Express (PL),Home Improvement,PL,5200
+347,HealthPlus Pharmacy Express (TR),Pharmacy,TR,5912
+348,Morning Cup Express (IN),Coffee Shops,IN,5814
+349,City University Bookstore Downtown (SE),Education,SE,8220
+350,Theatre Royal Downtown (IN),Entertainment,IN,7832
+351,Disney+ Central (AU),Streaming,AU,5815
+352,Bolt Plaza (IN),Transport,IN,4121
+353,BodyWorks Downtown (CA),Health/Fitness,CA,7997
+354,FitClub Central (GB),Health/Fitness,GB,7997
+355,ATM - Local Bank #567 (JP),ATM Withdrawal,JP,6011
+356,Denim & Co Downtown (PL),Clothing,PL,5651
+357,FreeNow North (FR),Transport,FR,4121
+358,SafeNet Insurance Online (PL),Insurance,PL,6300
+359,Orange #109 (US),Telecom,US,4814
+360,Verizon Central (PL),Telecom,PL,4814
+361,Burger House Central (JP),Restaurants,JP,5812
+362,TransAir #471 (IN),Travel - Airlines,IN,4511
+363,Spotify North (UA),Streaming,UA,5815
+364,AliExpress Downtown (SE),Online Retail,SE,5942
+365,Udemy Downtown (SG),Education,SG,8220
+366,Burger Express Online (US),Fast Food,US,5814
+367,GuardLife Express (SE),Insurance,SE,6300
+368,QuickBite Express (DE),Fast Food,DE,5814
+369,ATM - Citi South (NL),ATM Withdrawal,NL,6011
+370,MovieMax North (ES),Entertainment,ES,7832
+371,Skillshare Express (MX),Education,MX,8220
+372,ATM - Chase Express (ES),ATM Withdrawal,ES,6011
+373,Uber South (IT),Transport,IT,4121
+374,ProBuilders Supply Express (BR),Home Improvement,BR,5200
+375,CrossFit Central South (ES),Health/Fitness,ES,7997
+376,ATM - Local Bank Central (FR),ATM Withdrawal,FR,6011
+377,Spotify North (JP),Streaming,JP,5815
+378,EcoEnergy Express (CA),Utilities,CA,4900
+379,Wellness Drug Express (TR),Pharmacy,TR,5912
+380,AllShield Online (TR),Insurance,TR,6300
+381,ATM - Local Bank North (AE),ATM Withdrawal,AE,6011
+382,Modern Wear Central (ZA),Clothing,ZA,5651
+383,PowerCorp Express (TR),Utilities,TR,4900
+384,Marina Resort Express (BR),Travel - Hotels,BR,7011
+385,ATM - Santander Downtown (UA),ATM Withdrawal,UA,6011
+386,GymPro Plaza (UA),Health/Fitness,UA,7997
+387,Bolt Online (AU),Transport,AU,4121
+388,GymPro Downtown (ZA),Health/Fitness,ZA,7997
+389,The Hungry Fork Plaza (GB),Restaurants,GB,5812
+390,Apteka 24 Plaza (CA),Pharmacy,CA,5912
+391,City University Bookstore Plaza (MX),Education,MX,8220
+392,Nature's Basket Online (TR),Groceries,TR,5411
+393,T-Mobile Online (US),Telecom,US,4814
+394,Spotify South (CA),Streaming,CA,5815
+395,City University Bookstore South (IT),Education,IT,8220
+396,Hometown Grocery Online (TR),Groceries,TR,5411
+397,Bean & Brew Central (IT),Coffee Shops,IT,5814
+398,ATM - Barclays Central (MX),ATM Withdrawal,MX,6011
+399,Lyft Central (CA),Transport,CA,4121
+400,Chevron Online (CA),Fuel,CA,5541
+401,Disney+ Downtown (SG),Streaming,SG,5815
+402,CinePlex Plaza (PL),Entertainment,PL,7832
+403,NationalGas South (JP),Utilities,JP,4900
+404,GuardLife Express (JP),Insurance,JP,6300
+405,BookDepot North (BR),Online Retail,BR,5942
+406,EcoEnergy Express (FR),Utilities,FR,4900
+407,FreeNow South (FR),Transport,FR,4121
+408,BP #331 (DE),Fuel,DE,5541
+409,MediMart Downtown (SE),Pharmacy,SE,5912
+410,ATM - Barclays South (MX),ATM Withdrawal,MX,6011
+411,Morning Cup Plaza (AU),Coffee Shops,AU,5814
+412,ATM - Santander #36 (US),ATM Withdrawal,US,6011
+413,RailPass Central (IN),Public Transit,IN,4111
+414,Metro Card Downtown (JP),Public Transit,JP,4111
+415,ATM - Citi Central (TR),ATM Withdrawal,TR,6011
+416,Apteka 24 Online (AE),Pharmacy,AE,5912
+417,CityPharm Downtown (SG),Pharmacy,SG,5912
+418,HealthPlus Pharmacy Downtown (BR),Pharmacy,BR,5912
+419,Daily Grind North (SG),Coffee Shops,SG,5814
+420,BodyWorks Online (PL),Health/Fitness,PL,7997
+421,Skillshare North (US),Education,US,8220
+422,ATM - Local Bank Downtown (IT),ATM Withdrawal,IT,6011
+423,City University Bookstore Plaza (CA),Education,CA,8220
+424,City Inn Plaza (MX),Travel - Hotels,MX,7011
+425,MovieMax Central (SG),Entertainment,SG,7832
+426,Udemy Online (IN),Education,IN,8220
+427,Kyivstar South (ZA),Telecom,ZA,4814
+428,Morning Cup #269 (US),Coffee Shops,US,5814
+429,Espresso Lab North (ZA),Coffee Shops,ZA,5814
+430,HealthPlus Pharmacy Online (JP),Pharmacy,JP,5912
+431,Disney+ Central (IT),Streaming,IT,5815
+432,FitClub Downtown (AE),Health/Fitness,AE,7997
+433,City Electric South (US),Utilities,US,4900
+434,ATM - HSBC North (NL),ATM Withdrawal,NL,6011
+435,NationalGas Downtown (FR),Utilities,FR,4900
+436,ATM - Barclays North (SE),ATM Withdrawal,SE,6011
+437,ProBuilders Supply Online (PL),Home Improvement,PL,5200
+438,ToolBox Online (ZA),Home Improvement,ZA,5200
+439,Digital Den #317 (NL),Electronics,NL,5732
+440,AliExpress Online (TR),Online Retail,TR,5942
+441,FitClub #569 (JP),Health/Fitness,JP,7997
+442,BusLink #741 (BR),Public Transit,BR,4111
+443,TransAir Downtown (DE),Travel - Airlines,DE,4511
+444,Udemy Express (SG),Education,SG,8220
+445,CoverPlus Downtown (SE),Insurance,SE,6300
+446,Amazon Central (ES),Online Retail,ES,5942
+447,Bolt #759 (TR),Transport,TR,4121
+448,CityCab Downtown (CA),Transport,CA,4121
+449,Gadget Hub #461 (AE),Electronics,AE,5732
+450,Marina Resort Express (ES),Travel - Hotels,ES,7011
+451,Coursera Plaza (FR),Education,FR,8220
+452,City University Bookstore #898 (DE),Education,DE,8220
+453,StyleCo Online (IT),Clothing,IT,5651
+454,MediMart Online (IT),Pharmacy,IT,5912
+455,Theatre Royal South (SG),Entertainment,SG,7832
+456,Shopify Store North (DE),Online Retail,DE,5942
+457,SkyJet Central (CA),Travel - Airlines,CA,4511
+458,CityPharm North (CA),Pharmacy,CA,5912
+459,Spice Route South (JP),Restaurants,JP,5812
+460,Apteka 24 Online (IN),Pharmacy,IN,5912
+461,Apteka 24 Plaza (ES),Pharmacy,ES,5912
+462,Skillshare Central (IN),Education,IN,8220
+463,ATM - Barclays Express (SE),ATM Withdrawal,SE,6011
+464,SkyJet Express (MX),Travel - Airlines,MX,4511
+465,Pasta Mia Central (AU),Restaurants,AU,5812
+466,WaterWorks South (AU),Utilities,AU,4900
+467,Daily Foods Express (ES),Groceries,ES,5411
+468,Spotify Express (GB),Streaming,GB,5815
+469,Burger Express Central (US),Fast Food,US,5814
+470,HomeFix #23 (IN),Home Improvement,IN,5200
+471,BuildMart #927 (AU),Home Improvement,AU,5200
+472,Bolt Downtown (SG),Transport,SG,4121
+473,Bolt Downtown (BR),Transport,BR,4121
+474,StyleCo Online (TR),Clothing,TR,5651
+475,Morning Cup Plaza (ZA),Coffee Shops,ZA,5814
+476,CityPharm South (DE),Pharmacy,DE,5912
+477,Lyft #620 (TR),Transport,TR,4121
+478,Daily Foods South (BR),Groceries,BR,5411
+479,ProBuilders Supply Downtown (AU),Home Improvement,AU,5200
+480,Apteka 24 Express (DE),Pharmacy,DE,5912
+481,Espresso Lab Downtown (ZA),Coffee Shops,ZA,5814
+482,Olive Branch #740 (AU),Restaurants,AU,5812
+483,HBO Max Downtown (CA),Streaming,CA,5815
+484,BodyWorks Plaza (BR),Health/Fitness,BR,7997
+485,Coursera North (GB),Education,GB,8220
+486,CityCab Express (MX),Transport,MX,4121
+487,StyleCo Express (US),Clothing,US,5651
+488,Couture House Central (MX),Clothing,MX,5651
+489,BookDepot Online (ZA),Online Retail,ZA,5942
+490,Urban Threads South (SE),Clothing,SE,5651
+491,GuardLife Central (ZA),Insurance,ZA,6300
+492,CityCab #115 (AU),Transport,AU,4121
+493,ATM - Santander South (FR),ATM Withdrawal,FR,6011
+494,Apple Music South (US),Streaming,US,5815
+495,ATM - Barclays #37 (SG),ATM Withdrawal,SG,6011
+496,City Electric Downtown (AU),Utilities,AU,4900
+497,NationalGas #434 (CA),Utilities,CA,4900
+498,Netflix #938 (JP),Streaming,JP,5815
+499,Trendline #600 (UA),Clothing,UA,5651
+500,HealthPlus Pharmacy Express (UA),Pharmacy,UA,5912
