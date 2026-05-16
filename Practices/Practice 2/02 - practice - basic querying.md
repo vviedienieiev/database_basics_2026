@@ -1,5 +1,4 @@
-# Practical Assignment: Working with one table
-
+# Practical Assignment: basic querying
 
 ## Task 1 — Basic SELECT
 
@@ -102,5 +101,4 @@ Write ONE query that:
 
 5. Sort:
    - by total amount (descending)
-
 ---
