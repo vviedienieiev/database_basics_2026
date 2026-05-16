@@ -108,7 +108,7 @@ insert into finance.customers values
 
 Understanding this is **critical**.
 
-### DELETE → removes rows
+### DELETE → removes rows based on some codition
 ```sql
 delete from finance.customers where customer_id = 1;
 ```
@@ -124,7 +124,7 @@ drop table finance.customers;
 ```
 
 💡 Summary:
-- DELETE = data
+- DELETE = data based on some codition
 - TRUNCATE = all data
 - DROP = structure + data
 
@@ -133,7 +133,7 @@ drop table finance.customers;
 
 ## Step 9: Import CSV Tables
 
-You will import real banking data:
+Import the given banking data:
 - accounts
 - transactions
 - cards
