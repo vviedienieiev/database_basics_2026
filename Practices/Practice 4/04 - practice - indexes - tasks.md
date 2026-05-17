@@ -78,17 +78,6 @@ Look for:
 
 ---
 
-### 🧠 Key Insight
-
-| Operation | Meaning | Performance |
-|----------|--------|-----------|
-| Seq Scan | scans whole table | slow |
-| Index Scan | uses index | fast |
-| Filter | condition applied | depends |
-| Sort | ordering step | can be expensive |
-
----
-
 
 ## Task 2 — Baseline Query
 
