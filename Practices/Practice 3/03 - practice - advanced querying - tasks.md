@@ -1,6 +1,6 @@
 # Practical Assignment: advanced querying
 
-## 🔹 Task 1 — CASE WHEN
+## Task 1 — CASE WHEN
 
 Using `transactions`:
 
@@ -12,7 +12,7 @@ Create a column `amount_category`:
 
 ---
 
-## 🔹 Task 2 — CASE WHEN
+## Task 2 — CASE WHEN
 
 Using `accounts`:
 
@@ -24,7 +24,7 @@ Create column `account_status`:
 
 ---
 
-## 🔹 Task 3 — COALESCE
+## Task 3 — COALESCE
 
 Using `customers`:
 
@@ -33,7 +33,7 @@ Using `customers`:
 
 ---
 
-## 🔹 Task 4 — CTE
+## Task 4 — CTE
 
 Using `transactions`:
 
@@ -42,7 +42,7 @@ Using `transactions`:
 
 ---
 
-## 🔹 Task 5 — CTE + JOIN
+## Task 5 — CTE + JOIN
 1. Create a CTE that calculates:
    - total transaction amount per account  
    - number of transactions per account  
@@ -60,7 +60,7 @@ Using `transactions`:
 
 ---
 
-## 🔹 Task 6 — Window Function (ROW_NUMBER)
+## Task 6 — Window Function (ROW_NUMBER)
 
 Using `transactions`:
 
@@ -68,14 +68,14 @@ Assign row number per account ordered by amount DESC
 
 ---
 
-## 🔹 Task 7 — Window Function (RANK)
+## Task 7 — Window Function (RANK)
 
 1. Rank transactions by amount (global)  
 2. Rank transactions inside each account  
 
 ---
 
-## 🔹 Task 8 — Window Function (Running Total)
+## Task 8 — Window Function (Running Total)
 
 Using `transactions`:
 
