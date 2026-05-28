@@ -162,7 +162,7 @@ Write a query:
 ---
 
 
-## Graded Task (2 points)
+## Graded Task (1 points)
 You are given a slow query:
 
 ```sql

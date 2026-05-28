@@ -74,7 +74,7 @@ Tasks:
 
 
 
-## Graded Task (2 points)
+## Graded Task (1 points)
 
 Write ONE query that:
 
