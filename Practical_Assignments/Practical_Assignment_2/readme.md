@@ -46,7 +46,7 @@ CREATE DATABASE opt_db;
 
 2. Connect to this database.
 
-3. Run **script_01_create_tables_postgres.sql** in your database.
+3. Run **script_01_create_tables.sql** in your database.
 
 4. Install Python dependencies:
 
@@ -54,9 +54,9 @@ CREATE DATABASE opt_db;
 pip install -r requirements_postgres.txt
 ```
 
-5. Run your Python script to insert fake data into the tables.
+5. Run your Python script **main.py** to insert fake data into the tables.
 
-6. Execute queries from **optimization_demo_postgres.sql** using `EXPLAIN ANALYZE`.
+6. Execute queries from **optimization_demo.sql** using `EXPLAIN ANALYZE`.
 
 ### What was optimized
 
