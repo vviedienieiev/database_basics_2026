@@ -48,25 +48,15 @@ CREATE DATABASE opt_db;
 
 3. Run **script_01_create_tables_postgres.sql** in your database.
 
-4. Set environment variables:
-
-```env
-DB_HOST=localhost
-DB_PORT=5432
-DB_USER=postgres
-DB_PASSWORD=your_password
-DB_NAME=opt_db
-```
-
-5. Install Python dependencies:
+4. Install Python dependencies:
 
 ```sh
 pip install -r requirements_postgres.txt
 ```
 
-6. Run your Python script to insert fake data into the tables.
+5. Run your Python script to insert fake data into the tables.
 
-7. Execute queries from **optimization_demo_postgres.sql** using `EXPLAIN ANALYZE`.
+6. Execute queries from **optimization_demo_postgres.sql** using `EXPLAIN ANALYZE`.
 
 ### What was optimized
 
