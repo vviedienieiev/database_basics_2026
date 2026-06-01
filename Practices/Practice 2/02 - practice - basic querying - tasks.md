@@ -85,9 +85,8 @@ Write ONE query that:
    - transactions  
 
 2. Calculates:
-   - total transaction amount per customer  
-   - sum of the transactions values
-   - number of customers
+   - total transactions amount per customer  
+   - average number of transactions per customer
    - first transaction time
    - number of accounts
 
