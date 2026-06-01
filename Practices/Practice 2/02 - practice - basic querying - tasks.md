@@ -11,8 +11,9 @@
 ## Task 2 — Aliases & Formatting
 
 1. Show:
-   - `first_name`, `last_name`
    - full name as `full_name`
+   - split full name into first and last name. Name them `first_name`, `last_name` respectively
+
 
 2. Show:
    - email in uppercase as `email_upper`
