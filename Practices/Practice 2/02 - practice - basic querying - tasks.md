@@ -26,7 +26,7 @@ Using `transactions`:
 
 1. Show transactions where:
    - amount > 100  
-   - country = 'USA'  
+   - currency = 'USD'  
 
 2. Show transactions between two dates  
 
@@ -85,8 +85,8 @@ Write ONE query that:
    - transactions  
 
 2. Calculates:
-   - total transactions amount per customer  
-   - average number of transactions per customer
+   - total transactions count per customer  
+   - average transaction amount per customer
    - first transaction time
    - number of accounts
 

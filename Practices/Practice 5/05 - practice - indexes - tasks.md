@@ -14,7 +14,7 @@ Query:
 
 ```sql
 select *
-from transactions
+from finance.transactions
 where account_id = 100;
 ```
 
@@ -61,23 +61,6 @@ Return result
 
 ---
 
-### Example with EXPLAIN ANALYZE
-
-```sql
-explain analyze
-select *
-from transactions
-where account_id = 100;
-```
-
-Look for:
-
-- `Seq Scan` → bad for large tables ❌  
-- `Index Scan` → optimized query ✅  
-- `Execution Time` → total time  
-
----
-
 
 ## Task 2 — Baseline Query
 
@@ -99,7 +82,7 @@ Using `transactions`:
 
 ```sql
 create index idx_transactions_account_id
-on transactions(account_id);
+on finance.transactions(account_id);
 ```
 
 2. Run the same query again & Compare performance
@@ -113,7 +96,7 @@ on transactions(account_id);
 
 ```sql
 create index idx_transactions_account_date
-on transactions(account_id, transaction_date);
+on finance.transactions(account_id, transaction_date);
 ```
 
 2. Run query again & compare single column vs composite index
@@ -131,17 +114,58 @@ drop index idx_transactions_account_id;
 2. Run query again  
 ---
 
-## Task 6 — CTE Refactoring
+## Task 8 — Covering Index Investigation
 
-Rewrite your query using a CTE:
+Using the `transactions` table:
 
-1. Create CTE:
-   - filtered transactions  
+1. Write the following query:
 
-2. Select from it and apply sorting  
+```sql
+select
+    account_id,
+    amount,
+    transaction_date
+from finance.transactions
+where account_id = 100;
+```
+
+2. Run:
+
+```sql
+explain analyze
+```
+
+and review the execution plan.
+
+3. Create a composite index:
+
+```sql
+create index idx_transactions_covering
+on finance.transactions(account_id, transaction_date, amount);
+```
+
+4. Run the same query again.
+
+5. Compare:
+
+* execution time;
+* execution plan;
+* whether PostgreSQL uses:
+
+  * `Seq Scan`
+  * `Index Scan`
+  * `Index Only Scan`
+
+### Questions
+
+1. Which execution plan was used before creating the index?
+2. Which execution plan was used after creating the index?
+3. Did the query become faster after creating the index?
+4. Why can a covering index be faster than a regular index?
+
 ---
 
-## Task 7 — CTE + Aggregation
+## Task 6 — CTE + Aggregation
 
 Using `transactions`:
 
@@ -153,7 +177,7 @@ Using `transactions`:
 
 ---
 
-## Task 8 — Advanced Filtering
+## Task 7 — Advanced Filtering
 
 Write a query:
 
@@ -167,38 +191,38 @@ You are given a slow query:
 
 ```sql
 select
-    c.customer_id,
-    c.first_name,
-    c.last_name,
+    c.id as customer_id,
+    split_part(c.full_name, ' ', 1) as first_name,
+    split_part(c.full_name, ' ', 2) as last_name,
     coalesce(c.email, 'no_email@example.com') as email,
     sum(t.amount) as total_amount,
-    count(t.transaction_id) as transactions_count,
-    round(avg(t.amount), 2) as avg_transaction_amount,
+    count(t.id) as transactions_count,
+    round(cast(avg(t.amount) as decimal(18,2)), 2) as avg_transaction_amount,
     max(t.amount) as max_transaction_amount,
     case
         when sum(t.amount) < 500 then 'low'
         when sum(t.amount) between 500 and 2000 then 'medium'
         else 'high'
     end as customer_value_category
-from customers c
-join accounts a on c.customer_id = a.customer_id
-join transactions t on a.account_id = t.account_id
-where t.transaction_date >= '2023-01-01'
-and c.customer_id in (
+from finance.customers c
+join finance.accounts a on c.id = a.customer_id
+join finance.transactions t on a.id = t.account_id
+where t.created_at >= '2023-01-01'
+and c.id in (
     select a2.customer_id
-    from accounts a2
-    join transactions t2 on a2.account_id = t2.account_id
+    from finance.accounts a2
+    join finance.transactions t2 on a2.id = t2.account_id
     group by a2.customer_id
-    having count(t2.transaction_id) >= 3
+    having count(t2.id) >= 3
 )
-group by c.customer_id, c.first_name, c.last_name, c.email
+group by 1,2,3,4
 having sum(t.amount) > (
     select avg(customer_total)
     from (
         select sum(t3.amount) as customer_total
-        from accounts a3
-        join transactions t3 on a3.account_id = t3.account_id
-        where t3.transaction_date >= '2023-01-01'
+        from finance.accounts a3
+        join finance.transactions t3 on a3.id = t3.account_id
+        where t3.created_at >= '2023-01-01'
         group by a3.customer_id
     ) totals
 )
@@ -213,6 +237,7 @@ order by total_amount desc;
    - adding appropriate indexes  
    - restructuring using CTE  
    - use better aliases 
+   - Compare execution plans before and after optimization.
 ---
 
 ## Output

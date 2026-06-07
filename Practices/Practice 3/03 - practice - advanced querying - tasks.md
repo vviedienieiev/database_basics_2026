@@ -29,7 +29,7 @@ Create column `account_status`:
 Using `customers`:
 
 1. Replace NULL emails with 'no_email@example.com'  
-2. Show full name even if `last_name` is NULL  
+2. Show 'Unknown' if `full_name` is NULL  
 
 ---
 
