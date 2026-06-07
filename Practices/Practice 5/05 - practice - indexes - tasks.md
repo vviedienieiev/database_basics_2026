@@ -114,7 +114,7 @@ drop index idx_transactions_account_id;
 2. Run query again  
 ---
 
-## Task 8 — Covering Index Investigation
+## Task 6 — Covering Index Investigation
 
 Using the `transactions` table:
 
@@ -165,7 +165,7 @@ on finance.transactions(account_id, transaction_date, amount);
 
 ---
 
-## Task 6 — CTE + Aggregation
+## Task 7 — CTE + Aggregation
 
 Using `transactions`:
 
@@ -177,7 +177,7 @@ Using `transactions`:
 
 ---
 
-## Task 7 — Advanced Filtering
+## Task 8 — Advanced Filtering
 
 Write a query:
 
