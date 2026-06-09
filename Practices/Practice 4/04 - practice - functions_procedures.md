@@ -176,7 +176,7 @@ where email = 'john.smith@gmail.com';
 
 ## Graded Task (1 Point)
 
-1. Create a table named `inactive_accounts` and store all accounts with status `inactive` in it.
+1. Create a table named `inactive_accounts` and store all accounts with status `closed` in it.
 
 2. Create a procedure:
 
@@ -186,7 +186,7 @@ activate_accounts()
 
 The procedure should:
 
-* find accounts with status `inactive`;
+* find accounts with status `closed`;
 * update their status to `active` if their balance is greater than 1000.
 
 3. Execute the procedure.
