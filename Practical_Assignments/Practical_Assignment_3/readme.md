@@ -161,13 +161,6 @@ The log record should contain:
 - customer id;
 - action type;
 - timestamp.
-
-Use the following action name:
-
-```text
-ORDER_CREATED
-```
-
 ---
 
 ## Task 6 — Testing  
