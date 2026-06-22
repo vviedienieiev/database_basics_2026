@@ -1,4 +1,4 @@
-# PostgreSQL Practice Tasks
+# Practice 4: Functions Procedures
 
 ## Task 1. Customer Balance Category (CTE, CASE WHEN, COALESCE)
 

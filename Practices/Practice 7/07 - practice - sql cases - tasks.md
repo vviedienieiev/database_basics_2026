@@ -1,4 +1,4 @@
-# Practical Assignment: SQL Case Studies
+# Practice 7: SQL Case Studies
 
 ## Scenario
 

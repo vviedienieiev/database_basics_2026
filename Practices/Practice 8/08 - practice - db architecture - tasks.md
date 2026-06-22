@@ -1,4 +1,4 @@
-# Practical Assignment: DB Architecture 
+# Practice 8: DB Architecture 
 
 ## Мета роботи
 

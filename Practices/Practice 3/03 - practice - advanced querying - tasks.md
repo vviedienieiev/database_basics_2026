@@ -1,4 +1,4 @@
-# Practical Assignment: advanced querying
+# Practice 3: advanced querying
 
 ## Task 1 — CASE WHEN
 

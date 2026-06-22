@@ -1,4 +1,4 @@
-# Practical Assignment 6: SQL Operational Case Studies
+# Practice 6: SQL Operational Case Studies
 
 ## Scenario
 

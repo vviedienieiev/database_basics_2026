@@ -1,4 +1,4 @@
-# Practical Assignment: basic querying
+# Practice 2: basic querying
 
 ## Task 1 — Basic SELECT
 

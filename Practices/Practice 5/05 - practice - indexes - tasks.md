@@ -1,4 +1,4 @@
-# Practical Assignment: Indexes & Query Optimization
+# Practice 5: Indexes & Query Optimization
 
 ## Task 1 — EXPLAIN ANALYZE
 
